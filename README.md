@@ -26,6 +26,11 @@ iOS Application based on SwiftUI framework.
 * Add some snow animation with SpriteKit Scene, just for to emphasize the overall atmosphere and theme of app.
  
 
+
+https://user-images.githubusercontent.com/105702456/232918460-19b6feea-60ed-4ded-a045-6836339ff73f.mp4
+
 https://user-images.githubusercontent.com/105702456/232915040-26204f9f-6f76-4023-b49a-33a2d94553cb.mp4
 
 https://user-images.githubusercontent.com/105702456/232915100-c4db90e6-8969-415d-82d4-7e7d2813fe7e.mp4
+
+https://user-images.githubusercontent.com/105702456/232918339-9bbae08c-1b7f-4bc6-af68-17f9e92e957b.mp4
