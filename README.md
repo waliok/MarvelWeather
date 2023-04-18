@@ -24,16 +24,16 @@ iOS Application based on SwiftUI framework.
 * Use Async/Await syntax to treat necessary tasks on backgroud and back to MainActor for update UI elements.
 * Add peace of Combine framework functionality to search bar.
 * Add some snow animation with SpriteKit Scene, just for to emphasize the overall atmosphere and theme of app.
-<!--  
+ 
 
 https://user-images.githubusercontent.com/105702456/232889977-ed724199-d6f4-4318-8544-357a1a30e6fd.mp4
 https://user-images.githubusercontent.com/105702456/232890032-b97e778e-48f9-43bf-90d2-f455c4a6f9ab.mp4
 
 
 https://user-images.githubusercontent.com/105702456/232890092-755628da-6a31-46ac-b90a-64bf613eef6d.mp4
-https://user-images.githubusercontent.com/105702456/232890131-55b3000a-31e8-4b58-b8da-16b6e6e2df81.mp4 -->
+https://user-images.githubusercontent.com/105702456/232890131-55b3000a-31e8-4b58-b8da-16b6e6e2df81.mp4
 
-
+<!-- 
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -61,3 +61,4 @@ video {
     <source src="https://user-images.githubusercontent.com/105702456/232890131-55b3000a-31e8-4b58-b8da-16b6e6e2df81.mp4" type="video/mp4">
   </video>
 </div>
+ -->
