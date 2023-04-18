@@ -31,7 +31,11 @@ iOS Application based on SwiftUI framework.
 </div> -->
 
 
-<div float="left">
+<!-- <div float="left">
     <video src="https://user-images.githubusercontent.com/105702456/232911670-47f094bc-53be-4107-8e06-33c8db09a9b7.mp4" width="100" /> 
     <video src="https://user-images.githubusercontent.com/105702456/232911778-c0d88d8e-e8ec-436d-8a13-548d7872de4b.mp4" width="100" />
-</div>
+</div> -->
+
+
+<video src="https://user-images.githubusercontent.com/105702456/232911670-47f094bc-53be-4107-8e06-33c8db09a9b7.mp4" width="100" /> 
+<video src="https://user-images.githubusercontent.com/105702456/232911778-c0d88d8e-e8ec-436d-8a13-548d7872de4b.mp4" width="100" />
