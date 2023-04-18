@@ -25,12 +25,10 @@ iOS Application based on SwiftUI framework.
 * Add peace of Combine framework functionality to search bar.
 * Add some snow animation with SpriteKit Scene, just for to emphasize the overall atmosphere and theme of app.
  
-<div class="main>
-    <div class="https://user-images.githubusercontent.com/105702456/232889977-ed724199-d6f4-4318-8544-357a1a30e6fd.mp4"></div>
-    <div class="https://user-images.githubusercontent.com/105702456/232890032-b97e778e-48f9-43bf-90d2-f455c4a6f9ab.mp4"></div>
-</div>
 
-<div class="main">
-    <div class="https://user-images.githubusercontent.com/105702456/232890092-755628da-6a31-46ac-b90a-64bf613eef6d.mp4"></div>
-    <div class="https://user-images.githubusercontent.com/105702456/232890131-55b3000a-31e8-4b58-b8da-16b6e6e2df81.mp4"></div>
-</div>
+<div class="https://user-images.githubusercontent.com/105702456/232889977-ed724199-d6f4-4318-8544-357a1a30e6fd.mp4">box 1</div>
+<div class="https://user-images.githubusercontent.com/105702456/232890032-b97e778e-48f9-43bf-90d2-f455c4a6f9ab.mp4">box 2</div>
+
+
+<div class="https://user-images.githubusercontent.com/105702456/232890092-755628da-6a31-46ac-b90a-64bf613eef6d.mp4">box 1</div>
+<div class="https://user-images.githubusercontent.com/105702456/232890131-55b3000a-31e8-4b58-b8da-16b6e6e2df81.mp4">box 2</div>
