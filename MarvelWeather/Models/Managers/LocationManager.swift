@@ -29,7 +29,6 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate, MK
     @Published var pickedLocation: CLLocation?
     @Published var pickedPlaceMark: CLPlacemark?
     
-
     @Published var region: MKCoordinateRegion
     @Published var location: CLLocationCoordinate2D?
     @Published var name: String = ""

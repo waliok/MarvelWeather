@@ -9,15 +9,19 @@ import SwiftUI
 import MapKit
 
 class WeatherManager: ObservableObject {
+    
     @ObservedObject var dataManager = CoreDataManger.shared
     @ObservedObject var locationManager = LocationManager.shared
     static let shared = WeatherManager()
-    let key = "501cc86ae1aeceefe4f61e7d820bbce2"
-    let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")!.first?.prefix(2) ?? "en"
     
     @Published var weatherData: ResponseBody?
     @Published var weather: [ResponseBody] = []
     @AppStorage("measurement") var switchTemp: String = "metric"
+    
+    let key = "501cc86ae1aeceefe4f61e7d820bbce2"
+    let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")!.first?.prefix(2) ?? "en"
+    
+    init() {}
     
     func fetchCurrentWeather(latitude: CLLocationDegrees , longitude: CLLocationDegrees) async throws -> ResponseBody {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&lang=\(lang)&appid=\(key)&units=\(switchTemp)") else { fatalError("Missing URL") }
