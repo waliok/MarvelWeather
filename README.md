@@ -4,18 +4,17 @@ iOS Application based on SwiftUI framework.
 
 ## Main functionality
 
-* On main screen fetching current weather data for for current location.
-* Use list of favourite places to follow changes when you need it.
+* Fetching current weather data for for current location.
+* Use list of favorite places to follow changes when you need it (delete unnecessary and add desired).
 * Open the map and give a point to fetch current weather information for axact latitude and longitude.
-* Editd your list of follows: delete unnecessary and add desired.
-* Change measurement units between fahrnheit an celsium.
+* Change measurement units between fahrenheit and celsium.
 
 ## Feature and tech overview
 
 * Using OpenWeather API to fetch current weather. Decode JSON response data and display on screen.
 * Determine current user location with CoreLocation functionality.
 * Decode coordinate(longitude and latitude) to display actual adress(shorted to show city name).
-* Show MapView powered by Mapkit to find disered location on map.
+* Show MapView powered by Mapkit to find desired location on map.
 * Using CoreData for persis locations of favourite places to follow weater.
 * Add pakege dependency(BottomSheet) to implement bottom sheet functionality for iOS under iOS 16.
 * Use converted from SVG code to draw shapes.
