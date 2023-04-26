@@ -14,7 +14,7 @@ class CoreDataManger: ObservableObject {
     static let shared = CoreDataManger()
     let container: NSPersistentContainer
     
-    init() {
+    private init() {
         container = NSPersistentContainer(name: "CoordinateListModel")
         container.loadPersistentStores { description, error in
             if let error = error {

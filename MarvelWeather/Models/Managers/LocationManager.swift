@@ -35,7 +35,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate, MK
     @Published var city: String = "Your City"
     @Published var isLoading = false
     
-    override init() {
+    override private init() {
         let latitude = 0
         let longitude = 0
         self.region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude),

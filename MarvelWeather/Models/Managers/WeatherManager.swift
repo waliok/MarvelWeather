@@ -21,7 +21,7 @@ class WeatherManager: ObservableObject {
     let key = "501cc86ae1aeceefe4f61e7d820bbce2"
     let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")!.first?.prefix(2) ?? "en"
     
-    init() {}
+    private init() {}
     
     func fetchCurrentWeather(latitude: CLLocationDegrees , longitude: CLLocationDegrees) async throws -> ResponseBody {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&lang=\(lang)&appid=\(key)&units=\(switchTemp)") else { fatalError("Missing URL") }
